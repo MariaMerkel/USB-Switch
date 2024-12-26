@@ -1,5 +1,0 @@
-C:/Users/Maria/CLionProjects/USBSwitchButton/cmake-build-release/CMakeFiles/USBSwitchButton.dir
-C:/Users/Maria/CLionProjects/USBSwitchButton/cmake-build-release/CMakeFiles/USBSwitchICConfigurator.dir
-C:/Users/Maria/CLionProjects/USBSwitchButton/cmake-build-release/CMakeFiles/USBSwitchSwitcher.dir
-C:/Users/Maria/CLionProjects/USBSwitchButton/cmake-build-release/CMakeFiles/edit_cache.dir
-C:/Users/Maria/CLionProjects/USBSwitchButton/cmake-build-release/CMakeFiles/rebuild_cache.dir
