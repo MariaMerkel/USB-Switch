@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "USBSwitchSwitcher",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "USBSwitchButton::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-USBSwitchButton-Release-c448e336da209d3c354d.json",
+					"name" : "USBSwitchButton",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "USBSwitchICConfigurator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-USBSwitchICConfigurator-Release-6eb54a6880a75924b583.json",
+					"name" : "USBSwitchICConfigurator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "USBSwitchSwitcher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-USBSwitchSwitcher-Release-eaadffcb99db870e3952.json",
+					"name" : "USBSwitchSwitcher",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Maria/CLionProjects/USBSwitchButton/cmake-build-release",
+		"source" : "C:/Users/Maria/CLionProjects/USBSwitchButton"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

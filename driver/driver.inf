@@ -1,0 +1,48 @@
+[Version]
+Signature                       = "$WINDOWS NT$"
+Class                           = HIDClass
+ClassGuid                       = {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Provider                        = %VendorName%
+DriverVer                       = 02/10/2024,1.0.0.0
+CatalogFile                     = driver.cat
+PnpLockDown                     = 1
+DriverPackageDisplayName        = %DisplayName%
+
+[ControlFlags]
+ExcludeFromSelect               = 1
+
+[SourceDisksNames]
+1                               = %DiskName%,,,""
+
+[Manufacturer]
+%VendorName%                    = USBSwitchButton,NTx86,NTamd64,NTarm,NTarm64
+
+[USBSwitchButton.NTx86]
+%USBSwitchButton.DeviceDesc%    = USBSwitchButton_Install, USB\VID_337B&PID_4001
+
+[USBSwitchButton.NTamd64]
+%USBSwitchButton.DeviceDesc%    = USBSwitchButton_Install, USB\VID_337B&PID_4001
+
+[USBSwitchButton.NTarm]
+%USBSwitchButton.DeviceDesc%    = USBSwitchButton_Install, USB\VID_337B&PID_4001
+
+[USBSwitchButton.NTarm64]
+%USBSwitchButton.DeviceDesc%    = USBSwitchButton_Install, USB\VID_337B&PID_4001
+
+[USBSwitchButton_Install.NT]
+include                         = input.inf
+needs                           = HID_Inst.NT
+
+[USBSwitchButton_Install.NT.HW]
+include                         = input.inf
+needs                           = HID_Inst.NT.HW
+
+[USBSwitchButton_Install.NT.Services]
+include                         = input.inf
+needs                           = HID_Inst.NT.Services
+
+[Strings]
+VendorName                      = "Blahaj Ltd"
+DiskName                        = "Blahaj Ltd USB Switch Button Installation Disk"
+USBSwitchButton.DeviceDesc      = "USB Switch Button"
+DisplayName                     = "USB Switch Button"
