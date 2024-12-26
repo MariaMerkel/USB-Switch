@@ -5,4 +5,4 @@ The software and PCB (EasyEDA Format) in this repository allows the interception
 ## Current Limitations
 - There is no installer package yet so installation is complicated. The driver package needs to be signed and installed, the USBSwitchSwitcher executable added to autostart and the USBSwitchButton executable needs to be installed as a service.
 - The service cannot currently be stopped. This is being fixed.
-- The PCB isn't commercially available so you have to order it from a company like JLCPCB. You can generate gerber files by importing the PCB.json into EasyEDA.
+- The PCB isn't commercially available so you have to order it from a company like JLCPCB. You can generate gerber files by importing the PCB.json into EasyEDA. Once the PCB is assembled, it needs to be configured by running the USBSwitchICConfigurator executable.
